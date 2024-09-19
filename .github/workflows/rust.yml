@@ -42,7 +42,7 @@ jobs:
 
       - name: Build
         run: |
-          cargo-update
+          cargo update
           cargo build --release --locked
 
       - name: Upload binaries to release
